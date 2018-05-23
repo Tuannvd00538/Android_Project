@@ -8,8 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import java.io.UnsupportedEncodingException;
+
 
 public class LoginActivity extends AppCompatActivity {
+
+    ServerConnect sc = new ServerConnect();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +31,11 @@ public class LoginActivity extends AppCompatActivity {
                 if (usernameLogin.getText().length() == 0 || passwordLogin.getText().length() == 0) {
                     Log.d(LoginActivity.class.getSimpleName(), "NullPointerException");
                 } else {
-                    System.out.println(usernameLogin.getText() + " - " + passwordLogin.getText());
+                    try {
+                        sc.login(usernameLogin.getText().toString(), passwordLogin.getText().toString());
+                    } catch (UnsupportedEncodingException e) {
+                        e.printStackTrace();
+                    }
                 }
             }
         });
