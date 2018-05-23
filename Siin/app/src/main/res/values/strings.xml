@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Bummp!</string>
+    <string name="logo_ninja">Logo Ninja</string>
+    <string name="usernameLogin">Username</string>
+    <string name="passwordLogin">Password</string>
+    <string name="loginText">Login</string>
+    <string name="createAccLogin">No account yet? Create now</string>
+    <string name="usernameRegister">Username</string>
+    <string name="passwordRegister">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="emailRegister">name@example.com</string>
+    <string name="registerBtn">Register</string>
+    <string name="already_a_member_login_now">Already a member? Login now</string>
+</resources>
