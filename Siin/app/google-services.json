@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "451155177146",
+    "firebase_url": "https://chat-android-siin.firebaseio.com",
+    "project_id": "chat-android-siin",
+    "storage_bucket": "chat-android-siin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:451155177146:android:ac176b3c8bc9ac33",
+        "android_client_info": {
+          "package_name": "com.codetodev.siin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "451155177146-ve19ip19k7o5bmktr6fjv1ut71dkfmb9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codetodev.siin",
+            "certificate_hash": "bfd366eaa6cdeb90a02fcefed42c628f6c3e0964"
+          }
+        },
+        {
+          "client_id": "451155177146-5tuvctdgh24mikn80migt3bpdalqf7ku.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "451155177146-5tuvctdgh24mikn80migt3bpdalqf7ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWm_uymhC6JJBkWHnMTlq5DCkGcYbQpNE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "451155177146-5tuvctdgh24mikn80migt3bpdalqf7ku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
